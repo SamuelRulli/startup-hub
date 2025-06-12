@@ -129,7 +129,7 @@ function Contact({ onBack }: ContactProps) {
                 onClick={onBack}
                 className="text-white hover:text-[#fe6b8f] transition-colors"
               >
-                Voltar ao Início
+                Back to Home
               </button>
             </div>
           </AnimatedSection>
