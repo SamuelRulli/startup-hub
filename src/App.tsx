@@ -4,6 +4,11 @@ import Contact from './Contact';
 import ForInvestors from './ForInvestors';
 import Apply from './Apply';
 import LandingPage from './LandingPage';
+import MobileExperience from './MobileExperience';
+import AboutUs from './AboutUs';
+import Solutions from './Solutions';
+import ForStartups from './ForStartups';
+import Program from './Program';
 import { AnimatedSection } from './components/AnimatedSection';
 import Orb from './components/Orb';
 import SplitText from './components/SplitText';
@@ -11,22 +16,56 @@ import { ScrollReveal, StaggerContainer, StaggerItem, ScrollProgress, FloatingEl
 import { MagneticButton, MorphingShape, Card3D, LiquidBlob, ParticleSystem, TextReveal, Scroll3DScene, MagneticField, FloatingIslands } from './components/AdvancedAnimations';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState<'landing' | 'home' | 'contact' | 'investors' | 'apply'>('landing');
+  const [currentPage, setCurrentPage] = useState<'landing' | 'mobile' | 'home' | 'contact' | 'investors' | 'apply' | 'about' | 'solutions' | 'for-startups' | 'program'>('landing');
 
   if (currentPage === 'landing') {
-    return <LandingPage onEnter={() => setCurrentPage('home')} />;
+    return <LandingPage onEnter={() => setCurrentPage('mobile')} />;
+  }
+
+  if (currentPage === 'mobile') {
+    return (
+      <MobileExperience 
+        onBack={() => setCurrentPage('home')} 
+        onNavigate={(page: string) => {
+          if (page === 'apply') setCurrentPage('apply');
+          else if (page === 'contact') setCurrentPage('contact');
+          else if (page === 'investors') setCurrentPage('investors');
+          else if (page === 'about') setCurrentPage('about');
+          else if (page === 'solutions') setCurrentPage('solutions');
+          else if (page === 'for-startups') setCurrentPage('for-startups');
+          else if (page === 'program') setCurrentPage('program');
+          else setCurrentPage('home');
+        }} 
+      />
+    );
   }
 
   if (currentPage === 'contact') {
-    return <Contact onBack={() => setCurrentPage('home')} />;
+    return <Contact onBack={() => setCurrentPage('mobile')} />;
   }
 
   if (currentPage === 'investors') {
-    return <ForInvestors onBack={() => setCurrentPage('home')} />;
+    return <ForInvestors onBack={() => setCurrentPage('mobile')} />;
   }
 
   if (currentPage === 'apply') {
-    return <Apply onBack={() => setCurrentPage('home')} />;
+    return <Apply onBack={() => setCurrentPage('mobile')} />;
+  }
+
+  if (currentPage === 'about') {
+    return <AboutUs onBack={() => setCurrentPage('mobile')} />;
+  }
+
+  if (currentPage === 'solutions') {
+    return <Solutions onBack={() => setCurrentPage('mobile')} />;
+  }
+
+  if (currentPage === 'for-startups') {
+    return <ForStartups onBack={() => setCurrentPage('mobile')} />;
+  }
+
+  if (currentPage === 'program') {
+    return <Program onBack={() => setCurrentPage('mobile')} />;
   }
 
   const stats = [
@@ -259,6 +298,12 @@ function App() {
                 className="text-white hover:text-[#fe6b8f] transition-colors"
               >
                 Apply
+              </MagneticButton>
+              <MagneticButton 
+                onClick={() => setCurrentPage('mobile')}
+                className="text-white hover:text-[#fe6b8f] transition-colors"
+              >
+                Mobile Hub
               </MagneticButton>
               <MagneticButton 
                 onClick={() => setCurrentPage('contact')}
