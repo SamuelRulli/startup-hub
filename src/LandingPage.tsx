@@ -118,8 +118,8 @@ function LandingPage({ onEnter }: LandingPageProps) {
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
           <FloatingElement amplitude={2} frequency={1.5} delay={0}>
             <div className="flex flex-col items-center text-gray-400">
-              <div className="w-1 h-8 bg-gradient-to-b from-transparent via-white to-transparent opacity-60 mb-2"></div>
-              <span className="text-xs uppercase tracking-wider">Scroll to Explore</span>
+              {/* <div className="w-1 h-8 bg-gradient-to-b from-transparent via-white to-transparent opacity-60 mb-2"></div> */}
+              <span className="text-xs uppercase tracking-wider">By ItCygnus Innovation</span>
             </div>
           </FloatingElement>
         </div>
