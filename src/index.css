@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Rocket Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes flyAcross {
+  0% { transform: translateX(-100px) rotate(45deg); }
+  100% { transform: translateX(100vw) rotate(45deg); }
+}
+
+@keyframes orbit {
+  0% { transform: rotate(0deg) translateX(50px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(50px) rotate(-360deg); }
+}
+
+@keyframes smallFly {
+  0% { transform: translate(-50px, 50px) rotate(-30deg); }
+  100% { transform: translate(100vw, -50px) rotate(-30deg); }
+}
+
+@keyframes reverseFly {
+  0% { transform: translateX(100vw) rotate(-135deg); }
+  100% { transform: translateX(-100px) rotate(-135deg); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: translateX(0px) translateY(0px); }
+  25% { transform: translateX(-10px) translateY(-5px); }
+  50% { transform: translateX(0px) translateY(-10px); }
+  75% { transform: translateX(10px) translateY(-5px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-flyAcross {
+  animation: flyAcross 15s linear infinite;
+}
+
+.animate-orbit {
+  animation: orbit 10s linear infinite;
+}
+
+.animate-smallFly {
+  animation: smallFly 8s linear infinite;
+}
+
+.animate-reverseFly {
+  animation: reverseFly 12s linear infinite;
+}
+
+.animate-wiggle {
+  animation: wiggle 4s ease-in-out infinite, float 6s ease-in-out infinite;
+}
