@@ -246,11 +246,11 @@ function Program({ onBack }: ProgramProps) {
             <div className="flex items-center space-x-4">
               <img 
                 src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
-                alt="M31 Venture" 
+                alt="Nyx Hub Venture" 
                 className="h-12 w-auto"
               />
               <div className="text-white">
-                <h1 className="text-2xl font-bold">M31 Venture</h1>
+                <h1 className="text-2xl font-bold">Nyx Hub Venture</h1>
                 <p className="text-sm text-gray-300">Startup Acceleration Hub</p>
               </div>
             </div>

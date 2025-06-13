@@ -199,11 +199,11 @@ function ForStartups({ onBack }: ForStartupsProps) {
             <div className="flex items-center space-x-4">
               <img 
                 src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
-                alt="M31 Venture" 
+                alt="Nyx Hub Venture" 
                 className="h-12 w-auto"
               />
               <div className="text-white">
-                <h1 className="text-2xl font-bold">M31 Venture</h1>
+                <h1 className="text-2xl font-bold">Nyx Hub Venture</h1>
                 <p className="text-sm text-gray-300">Startup Acceleration Hub</p>
               </div>
             </div>
@@ -224,7 +224,7 @@ function ForStartups({ onBack }: ForStartupsProps) {
               <div className="max-w-4xl mx-auto text-lg text-gray-300 leading-relaxed">
                 <p>
                   If you have an innovative idea or an early-stage startup and are looking for the boost needed to conquer 
-                  the market, <strong className="text-white">M31 Venture</strong> is your place.
+                  the market, <strong className="text-white">Nyx Hub Venture</strong> is your place.
                 </p>
                 <p className="mt-4">
                   We offer a complete acceleration program designed to transform your potential into success.

@@ -272,11 +272,11 @@ function App() {
             <div className="flex items-center space-x-4">
               <img 
                 src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
-                alt="M31 Venture" 
+                alt="Nyx Hub Venture" 
                 className="h-12 w-auto"
               />
               <div className="text-white">
-                <h1 className="text-2xl font-bold">M31 Venture</h1>
+                <h1 className="text-2xl font-bold">Nyx Hub Venture</h1>
                 <p className="text-sm text-gray-300">Startup Acceleration Hub</p>
               </div>
             </div>
@@ -414,7 +414,7 @@ function App() {
               />
               <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed">
                 <p>
-                  <strong className="text-white">M31 Venture</strong> is more than an acceleration hub; we are the catalyst for 
+                  <strong className="text-white">Nyx Hub Venture</strong> is more than an acceleration hub; we are the catalyst for 
                   the success of innovative startups. We were born from the passion to transform promising ideas 
                   into sustainable and high-impact businesses.
                 </p>
@@ -509,7 +509,7 @@ function App() {
                 className="text-4xl lg:text-5xl font-bold text-white mb-8"
               />
               <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-                At M31 Venture, we offer a comprehensive set of solutions designed to drive growth and innovation in the startup ecosystem.
+                At Nyx Hub Venture, we offer a comprehensive set of solutions designed to drive growth and innovation in the startup ecosystem.
               </p>
             </div>
           </ScrollReveal>
@@ -596,7 +596,7 @@ function App() {
               <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed">
                 <p>
                   If you have an innovative idea or an early-stage startup and are looking for the boost 
-                  needed to conquer the market, <strong className="text-white">M31 Venture</strong> is your place.
+                  needed to conquer the market, <strong className="text-white">Nyx Hub Venture</strong> is your place.
                 </p>
                 <p>
                   We offer a complete acceleration program designed to transform your potential into success.
@@ -676,7 +676,7 @@ function App() {
                 className="text-4xl lg:text-5xl font-bold text-white mb-6"
               />
               <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                M31 Venture connects the vibrant startup ecosystems of Brazil and the United States, 
+                Nyx Hub Venture connects the vibrant startup ecosystems of Brazil and the United States, 
                 providing unparalleled access to markets, mentorship, and capital.
               </p>
             </div>
@@ -730,11 +730,11 @@ function App() {
                 <div className="flex items-center space-x-4 mb-6">
                   <img 
                     src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
-                    alt="M31 Venture" 
+                    alt="Nyx Hub Venture" 
                     className="h-10 w-auto"
                   />
                   <div className="text-white">
-                    <h3 className="text-xl font-bold">M31 Venture</h3>
+                    <h3 className="text-xl font-bold">Nyx Hub Venture</h3>
                     <p className="text-sm text-gray-400">Startup Acceleration Hub</p>
                   </div>
                 </div>
@@ -743,7 +743,7 @@ function App() {
                 </p>
                 <div className="flex space-x-4">
                   <Mail className="w-5 h-5 text-[#269dff]" />
-                  <span className="text-white">contact@m31venture.com</span>
+                  <span className="text-white">contact@nyxhub.ventures</span>
                 </div>
               </div>
 
@@ -772,7 +772,7 @@ function App() {
           <ScrollReveal direction="fade" delay={0.4}>
             <div className="border-t border-white/10 mt-12 pt-8 text-center">
               <p className="text-gray-400">
-                © 2025 M31 Venture. All rights reserved. | Connecting innovation between Brazil and USA.
+                © 2025 Nyx Hub Venture. All rights reserved. | Connecting innovation between Brazil and USA.
               </p>
             </div>
           </ScrollReveal>

@@ -151,11 +151,11 @@ function Solutions({ onBack }: SolutionsProps) {
             <div className="flex items-center space-x-4">
               <img 
                 src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
-                alt="M31 Venture" 
+                alt="Nyx Hub Venture" 
                 className="h-12 w-auto"
               />
               <div className="text-white">
-                <h1 className="text-2xl font-bold">M31 Venture</h1>
+                <h1 className="text-2xl font-bold">Nyx Hub Venture</h1>
                 <p className="text-sm text-gray-300">Startup Acceleration Hub</p>
               </div>
             </div>
@@ -175,7 +175,7 @@ function Solutions({ onBack }: SolutionsProps) {
               />
               <div className="max-w-4xl mx-auto text-lg text-gray-300 leading-relaxed">
                 <p>
-                  At M31 Venture, we offer a comprehensive set of solutions designed to drive growth and 
+                  At Nyx Hub Venture, we offer a comprehensive set of solutions designed to drive growth and 
                   innovation in the startup ecosystem.
                 </p>
               </div>

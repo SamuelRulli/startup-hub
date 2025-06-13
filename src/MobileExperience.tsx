@@ -209,7 +209,7 @@ function MobileExperience({ onBack, onNavigate }: MobileExperienceProps) {
                 <Rocket className="w-6 h-6 text-white" />
               </div>
               <div className="flex-1">
-                <div className="text-white text-lg font-medium">Welcome to M31 Venture!</div>
+                <div className="text-white text-lg font-medium">Welcome to Nyx Hub Venture!</div>
                 <div className="text-gray-300 text-sm">Click any icon to start your journey</div>
               </div>
             </div>
@@ -221,7 +221,7 @@ function MobileExperience({ onBack, onNavigate }: MobileExperienceProps) {
       <div className="relative z-10 px-6 pt-8 pb-4">
         <div className="flex items-center justify-center mb-12">
           <div className="text-center">
-            <h1 className="text-white text-3xl font-bold mb-2">M31 Venture Hub</h1>
+            <h1 className="text-white text-3xl font-bold mb-2">Nyx Hub Venture Hub</h1>
             <p className="text-gray-300 text-lg">Interactive Startup Experience</p>
           </div>
         </div>

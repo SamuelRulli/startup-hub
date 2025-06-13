@@ -46,7 +46,7 @@ function Contact({ onBack }: ContactProps) {
     },
     {
       title: "Email",
-      content: ["contato@m31venture.com"],
+      content: ["contact@nyxhub.ventures"],
       icon: Mail,
       gradient: "from-[#269dff] to-[#fe6b8f]"
     },
@@ -113,11 +113,11 @@ function Contact({ onBack }: ContactProps) {
               <div className="flex items-center space-x-4">
                 <img 
                   src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
-                  alt="M31 Venture" 
+                  alt="Nyx Hub Venture" 
                   className="h-12 w-auto"
                 />
                 <div className="text-white">
-                  <h1 className="text-2xl font-bold">M31 Venture</h1>
+                  <h1 className="text-2xl font-bold">Nyx Hub Venture</h1>
                   <p className="text-sm text-gray-300">Startup Acceleration Hub</p>
                 </div>
               </div>
@@ -192,7 +192,7 @@ function Contact({ onBack }: ContactProps) {
                   </h3>
                   <div className="flex space-x-4">
                     <a
-                      href="https://linkedin.com/company/m31venture"
+                      href="https://linkedin.com/company/nyxhubventures"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gradient-to-r from-[#fe6b8f] to-[#9f3ccf] w-12 h-12 rounded-xl flex items-center justify-center hover:shadow-lg transform hover:scale-110 transition-all duration-300"
@@ -200,7 +200,7 @@ function Contact({ onBack }: ContactProps) {
                       <Linkedin className="w-6 h-6 text-white" />
                     </a>
                     <a
-                      href="https://instagram.com/m31venture"
+                      href="https://instagram.com/nyxhubventures"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gradient-to-r from-[#9f3ccf] to-[#269dff] w-12 h-12 rounded-xl flex items-center justify-center hover:shadow-lg transform hover:scale-110 transition-all duration-300"

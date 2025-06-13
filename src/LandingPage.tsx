@@ -49,7 +49,7 @@ function LandingPage({ onEnter }: LandingPageProps) {
           <FloatingElement amplitude={3} frequency={2} delay={0}>
             <img 
               src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
-              alt="M31 Venture" 
+              alt="Nyx Hub Venture" 
               className="h-20 w-auto opacity-90"
             />
           </FloatingElement>
@@ -58,7 +58,7 @@ function LandingPage({ onEnter }: LandingPageProps) {
         {/* Main Title */}
         <div className="text-center mb-12 max-w-4xl">
           <TextReveal 
-            text="M31 Venture"
+            text="Nyx Hub Venture"
             className="text-6xl lg:text-8xl font-bold text-white mb-6 bg-gradient-to-r from-[#fe6b8f] via-[#9f3ccf] to-[#269dff] bg-clip-text text-transparent"
           />
           <TextReveal 

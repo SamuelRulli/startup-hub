@@ -105,7 +105,7 @@ export default function Orb({
       return vec4(colorIn.rgb / (a + 1e-5), a);
     }
     
-    // Cores ajustadas para o tema M31 Venture
+    // Cores ajustadas para o tema Nyx Hub Venture
     const vec3 baseColor1 = vec3(0.996, 0.420, 0.561); // #fe6b8f
     const vec3 baseColor2 = vec3(0.623, 0.235, 0.812); // #9f3ccf  
     const vec3 baseColor3 = vec3(0.149, 0.616, 1.000); // #269dff

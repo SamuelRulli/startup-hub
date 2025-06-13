@@ -72,11 +72,11 @@ function Apply({ onBack }: ApplyProps) {
           <div className="flex items-center space-x-4">
             <img 
               src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
-              alt="M31 Venture" 
+              alt="Nyx Hub Venture" 
               className="h-12 w-auto"
             />
             <div className="text-white">
-              <h1 className="text-2xl font-bold">M31 Venture</h1>
+              <h1 className="text-2xl font-bold">Nyx Hub Venture</h1>
               <p className="text-sm text-gray-300">Startup Acceleration Hub</p>
             </div>
           </div>
@@ -274,7 +274,7 @@ function Apply({ onBack }: ApplyProps) {
                 <CheckCircle className="w-16 h-16 text-green-400 mx-auto mb-6" />
                 <h2 className="text-4xl font-bold text-white mb-4">Application Submitted!</h2>
                 <p className="text-xl text-gray-300 mb-8">
-                  Thank you for applying to M31 Venture. We will review your application and get back to you within 2 weeks.
+                  Thank you for applying to Nyx Hub Venture. We will review your application and get back to you within 2 weeks.
                 </p>
                 <div className="bg-gradient-to-r from-[#fe6b8f]/20 to-[#269dff]/20 rounded-xl p-6 border border-white/10">
                   <p className="text-white">

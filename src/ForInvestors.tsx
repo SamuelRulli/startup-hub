@@ -68,11 +68,11 @@ function ForInvestors({ onBack }: ForInvestorsProps) {
           <div className="flex items-center space-x-4">
             <img 
               src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
-              alt="M31 Venture" 
+              alt="Nyx Hub Venture" 
               className="h-12 w-auto"
             />
             <div className="text-white">
-              <h1 className="text-2xl font-bold">M31 Venture</h1>
+              <h1 className="text-2xl font-bold">Nyx Hub Venture</h1>
               <p className="text-sm text-gray-300">Startup Acceleration Hub</p>
             </div>
           </div>
@@ -98,7 +98,7 @@ function ForInvestors({ onBack }: ForInvestorsProps) {
               />
               <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed">
                 <p>
-                  <strong className="text-white">M31 Venture</strong> bridges intelligent capital with the most promising 
+                  <strong className="text-white">Nyx Hub Venture</strong> bridges intelligent capital with the most promising 
                   startups in the market. We connect investors to high-potential opportunities, 
                   carefully selected and accelerated by our exclusive methodology.
                 </p>
@@ -123,7 +123,7 @@ function ForInvestors({ onBack }: ForInvestorsProps) {
                 },
                 {
                   title: "Co-investment",
-                  description: "Opportunity to invest alongside M31 Venture and other strategic investors.",
+                  description: "Opportunity to invest alongside Nyx Hub Venture and other strategic investors.",
                   icon: Handshake,
                   gradient: "from-[#9f3ccf] to-[#269dff]"
                 },
