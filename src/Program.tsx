@@ -245,7 +245,7 @@ function Program({ onBack }: ProgramProps) {
           <AnimatedSection animation="slideLeft">
             <div className="flex items-center space-x-4">
               <img 
-                src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
+                src="https://storage.googleapis.com/agentpro-cdn/m31/icon.png" 
                 alt="Nyx Hub Venture" 
                 className="h-12 w-auto"
               />

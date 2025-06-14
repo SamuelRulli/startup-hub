@@ -71,7 +71,7 @@ function Apply({ onBack }: ApplyProps) {
         <nav className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <img 
-              src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
+              src="https://storage.googleapis.com/agentpro-cdn/m31/icon.png" 
               alt="Nyx Hub Venture" 
               className="h-12 w-auto"
             />

@@ -48,7 +48,7 @@ function LandingPage({ onEnter }: LandingPageProps) {
         <div className="mb-8">
           <FloatingElement amplitude={3} frequency={2} delay={0}>
             <img 
-              src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
+              src="https://storage.googleapis.com/agentpro-cdn/m31/icon.png" 
               alt="Nyx Hub Venture" 
               className="h-20 w-auto opacity-90"
             />

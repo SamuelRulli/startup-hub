@@ -112,7 +112,7 @@ function Contact({ onBack }: ContactProps) {
               <ArrowLeft className="w-6 h-6 group-hover:-translate-x-1 transition-transform" />
               <div className="flex items-center space-x-4">
                 <img 
-                  src="https://storage.googleapis.com/agentpro-cdn/m31/png.png" 
+                  src="https://storage.googleapis.com/agentpro-cdn/m31/icon.png" 
                   alt="Nyx Hub Venture" 
                   className="h-12 w-auto"
                 />
